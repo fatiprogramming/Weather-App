@@ -55,7 +55,7 @@ strong {
   margin: 0 auto;
   padding: 0 auto;
   align-self: end;
-  opacity: 0.5;
+  opacity: 0.3;
 }
 .image-clouds {
   margin-top: 16rem;
@@ -154,10 +154,14 @@ main {
 }
 .day {
   text-shadow: 1px 1px 2px rgb(255, 255, 255);
+  font-size: 1.2rem;
+}
+.weather {
+  font-weight: 200;
+  text-shadow: 1px 1px 0.3px rgb(17, 75, 141);
 }
 footer {
   margin-left: 10%;
-  margin-top: 10%;
   text-align: center;
   padding-top: 0.625rem;
   color: rgba(39, 33, 66, 0.4);

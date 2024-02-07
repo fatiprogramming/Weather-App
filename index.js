@@ -11,7 +11,7 @@ function displayTemperature(response) {
     iconElement.classList.remove("animation");
   }, 500);
   if (response.data.city.length > 8) {
-    cityElement.style.fontSize = "3rem";
+    cityElement.style.fontSize = "2.7rem";
   }
   cityElement.innerHTML = response.data.city;
   temperatureElement.innerHTML = temperature;
