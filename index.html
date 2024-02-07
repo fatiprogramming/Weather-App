@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Protest+Riot&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>What's the weather today?</title>
+  </head>
+  <body>
+    <div class="all">
+      <div class="weather-app">
+        <div class="clouds-container">
+          <img src="images/clouds.png" alt="Clouds" class="image-clouds" />
+        </div>
+        <header>
+          <form id="search-form">
+            <input
+              type="search"
+              placeholder="Enter a city.."
+              required
+              class="search-input"
+              id="search-input"
+            />
+            <input type="submit" value="Search" class="search-button" />
+          </form>
+        </header>
+        <main>
+          <div class="current-weather">
+            <div>
+              <h1 class="current-city" id="current-city">Enter a city</h1>
+              <p class="current-details">
+                <span id="current-date"></span>
+                <span id="weather-details"> Weather details</span>
+              </p>
+            </div>
+            <div class="current-temperature">
+              <span><img src="" alt="" class="current-temperature-icon" /></span
+              ><span class="current-temperature-value" id="current-temperature"
+                >0</span
+              ><span class="current-temperature-unit">℃</span>
+            </div>
+          </div>
+        </main>
+        <footer>
+          <p>
+            This project was coded by
+            <a href="#" target="_blank">Fátima Blanco</a> and is
+            <a href="#" target="_blank">https://github.com/fatiprogramming </a>
+            on GitHub and hosted on Netlify
+          </p>
+        </footer>
+      </div>
+    </div>
+  </body>
+  <script src="index.js"></script>
+</html>
