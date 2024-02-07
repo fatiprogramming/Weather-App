@@ -72,7 +72,7 @@ header {
   margin-left: 10%;
   margin-top: 10%;
   font-family: "Protest Riot", sans-serif;
-  background: none;
+  background-color: rgba(128, 128, 128, 0.205);
   border: 1px solid rgb(92, 83, 83);
   color: rgba(39, 33, 66, 0.4);
   font-size: 1rem;
