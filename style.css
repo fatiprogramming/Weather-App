@@ -219,3 +219,37 @@ footer {
   -webkit-animation: flip-scale-2-hor-top 0.5s linear both;
   animation: flip-scale-2-hor-top 0.5s linear both;
 }
+@media (max-width: 475px) {
+  .search-input {
+    margin-top: 20%;
+    padding: 0.7rem;
+    font-size: 0.9rem;
+  }
+  .search-button {
+    padding: 0.7rem;
+    font-size: 0.9rem;
+  }
+  .current-temperature {
+    font-size: 2rem;
+  }
+  .current-temperature-value {
+    font-size: 3rem;
+  }
+  .current-city {
+    font-size: 2.8rem;
+  }
+  .current-temperature-icon {
+    width: 3rem;
+  }
+  .current-temperature-unit {
+    font-size: 1rem;
+  }
+  footer {
+    margin-right: 10%;
+  }
+}
+@media (max-width: 350px) {
+  .current-weather {
+    display: block;
+  }
+}
