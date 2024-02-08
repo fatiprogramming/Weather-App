@@ -154,11 +154,20 @@ main {
 }
 .day {
   text-shadow: 1px 1px 2px rgb(255, 255, 255);
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 .weather {
   font-weight: 200;
-  text-shadow: 1px 1px 0.3px rgb(17, 75, 141);
+  font-size: 0.8rem;
+}
+.min1,
+.min2,
+.min3,
+.min4,
+.min5,
+.min6 {
+  color: rgba(0, 0, 0, 0.486);
+  text-shadow: none;
 }
 footer {
   margin-left: 10%;
