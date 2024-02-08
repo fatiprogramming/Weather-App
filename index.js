@@ -16,7 +16,7 @@ function displayTemperature(response) {
   cityElement.innerHTML = response.data.city;
   temperatureElement.innerHTML = temperature;
   iconElement.src = response.data.condition.icon_url;
-  weatherDetails.innerHTML = `Humidity is <strong>${response.data.temperature.humidity}%</strong> and wind speed is <strong>${response.data.wind.speed}km/h</strong>`;
+  weatherDetails.innerHTML = `, humidity is <strong>${response.data.temperature.humidity}%</strong> and wind speed is <strong>${response.data.wind.speed}km/h</strong>`;
 }
 
 function search(event) {
